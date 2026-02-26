@@ -34,19 +34,21 @@ export default function FinalCtaSection() {
                     </p>
 
                     {/* CTA Button */}
-                    <div
-                        className={`mt-10 ${isVisible ? "animate-fade-in-up animate-delay-300" : "opacity-0"}`}
-                    >
-                        <a
-                            href="#"
-                            className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-slate-900 bg-white hover:bg-slate-50 rounded-full shadow-xl shadow-black/20 transition-all hover:-translate-y-0.5 hover:shadow-2xl"
-                        >
-                            Schedule a 20-Minute Strategy Call
-                            <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </a>
-                    </div>
+                  <div
+    className={`mt-10 ${isVisible ? "animate-fade-in-up animate-delay-300" : "opacity-0"}`}
+>
+    <a
+        href="https://wa.me/918859613236?text=Hi%2C%20I%E2%80%99d%20like%20to%20schedule%20a%2020-minute%20strategy%20call."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-slate-900 bg-white hover:bg-slate-50 rounded-full shadow-xl shadow-black/20 transition-all hover:-translate-y-0.5 hover:shadow-2xl"
+    >
+        Schedule a 20-Minute Strategy Call
+        <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+    </a>
+</div>
 
                     {/* Calendar placeholder */}
                     <div
