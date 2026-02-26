@@ -56,7 +56,12 @@ export default function FinalCtaSection() {
                     >
                         <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-6">
                             <div className="flex items-center justify-between mb-4">
-                                <h3 className="text-sm font-semibold text-white">February 2026</h3>
+                                <h3 className="text-sm font-semibold text-white">
+    {new Date().toLocaleString("default", {
+        month: "long",
+        year: "numeric",
+    })}
+</h3>
                                 <div className="flex gap-1">
                                     <button className="p-1 text-slate-400 hover:text-white" aria-label="Previous month">
                                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
