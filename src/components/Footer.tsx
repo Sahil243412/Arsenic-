@@ -10,7 +10,7 @@ export default function Footer() {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
                         </div>
-                        <span className="text-base font-semibold text-white tracking-tight">InquiryAI</span>
+                        <span className="text-base font-semibold text-white tracking-tight">ARSENIC</span>
                     </div>
 
                     {/* Links */}
