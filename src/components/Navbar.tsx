@@ -25,7 +25,7 @@ export default function Navbar() {
                             </svg>
                         </div>
                         <span className="text-lg font-semibold text-slate-900 tracking-tight">
-                            InquiryAI
+                            ARSENIC
                         </span>
                     </a>
 
@@ -45,7 +45,7 @@ export default function Navbar() {
                     {/* CTA */}
                     <div className="hidden md:block">
                         <a
-                            href="#cta"
+                            href="https://wa.me/918859613236?text=Hi%2C%20I%E2%80%99d%20like%20to%20schedule%20a%2020-minute%20strategy%20call."
                             className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 rounded-full shadow-sm shadow-blue-500/25 transition-all hover:shadow-md hover:shadow-blue-500/30"
                         >
                             Book a Free Strategy Call
